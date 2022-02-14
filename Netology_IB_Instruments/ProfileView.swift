@@ -8,11 +8,11 @@
 import UIKit
 
 class ProfileView: UIView {
-    @IBOutlet weak var BirthData: UILabel!
-    @IBOutlet weak var Deception: UITextView!
-    @IBOutlet weak var Name: UILabel!
-    @IBOutlet weak var Avatar: UIImageView!
-    @IBOutlet weak var Town: UILabel!
+    @IBOutlet weak var birthData: UILabel!
+    @IBOutlet weak var deception: UITextView!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var avatar: UIImageView!
+    @IBOutlet weak var town: UILabel!
     
     override init (frame: CGRect) {
         super.init(frame: frame)
